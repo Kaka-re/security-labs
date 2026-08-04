@@ -1,3 +1,0 @@
-# Lab 01 - Inventário de Ativos e Classificação de Criticidade
-
-Em construção...
