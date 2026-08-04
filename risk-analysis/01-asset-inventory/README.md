@@ -31,11 +31,6 @@ Toda análise de risco começa sabendo **o que você precisa proteger** e
 | `criticidade_total` | Soma ou média ponderada das notas acima |
 | `responsavel` | Área ou pessoa responsável pelo ativo |
 
-## ✅ Checklist do lab
-- [ ] Criar `schema.sql` com a tabela de ativos
-- [ ] Popular com pelo menos 10 ativos fictícios variados
-- [ ] Criar query que ordena ativos por criticidade (maior risco primeiro)
-- [ ] Documentar a metodologia de pontuação em `notas.md`
 
 ## 📚 Referências
 - NIST SP 800-30 — Guide for Conducting Risk Assessments
