@@ -21,7 +21,7 @@ Consultoria de segurança da informação para a Confiare, uma seguradora fictí
 - Lei Geral de Proteção de Dados (Lei nº 13.709/2018) e Resolução CD/ANPD nº 2/2022
 - NIST National Vulnerability Database (NVD)
 
-## Estrutura do repositório
+## Estrutura do Repositorio
 
 | Pasta/Arquivo | Conteúdo |
 |---|---|
