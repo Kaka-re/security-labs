@@ -45,7 +45,7 @@ Ao longo do período monitorado (mar/2026 a mai/2026), foram identificados 193 r
 | LOW | 12 |
 | N/A | 10 |
 
-Detalhamento completo por ativo e por quinzena disponível em [`data/relatorio_vulnerabilidades.xlsx`](data/relatorio_vulnerabilidades.xlsx) e nos gráficos em [`docs/04-gestao-de-vulnerabilidades.md`](docs/04-gestao-de-vulnerabilidades.md).
+Detalhamento completo por ativo e por quinzena disponível em ------ e nos gráficos em [`docs/04-gestao-de-vulnerabilidades.md`](docs/04-gestao-de-vulnerabilidades.md).
 
 ##  Ativos críticos mapeados
 
