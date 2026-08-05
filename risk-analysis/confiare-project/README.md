@@ -32,3 +32,31 @@ Consultoria de segurança da informação para a Confiare, uma seguradora fictí
 | `docs/04-gestao-de-vulnerabilidades.md` | Processo de gestão + gráficos |
 | `data/relatorio_vulnerabilidades.xlsx` | Série histórica de vulnerabilidades |
 | `assets/` | Imagens/gráficos usados na documentação |
+
+## 📊 Destaques dos dados
+
+Ao longo do período monitorado (mar/2026 a mai/2026), foram identificados 193 registros de vulnerabilidades nos ativos críticos, com a seguinte distribuição por severidade:
+
+| Severidade | Total |
+|---|---|
+| CRITICAL | 2 |
+| HIGH | 57 |
+| MEDIUM | 112 |
+| LOW | 12 |
+| N/A | 10 |
+
+Detalhamento completo por ativo e por quinzena disponível em [`data/relatorio_vulnerabilidades.xlsx`](data/relatorio_vulnerabilidades.xlsx) e nos gráficos em [`docs/04-gestao-de-vulnerabilidades.md`](docs/04-gestao-de-vulnerabilidades.md).
+
+##  Ativos críticos mapeados
+
+| Ativo | Tipo |
+|---|---|
+| Ubuntu Server | Sistema Operacional (Servidor) |
+| PostgreSQL 16 | Banco de Dados |
+| Fortinet FortiGate 100F | Dispositivo de Rede |
+| macOS Sonoma 14.x | Estações de Trabalho |
+| Safari | Navegador de Internet |
+
+Detalhes da classificação CID de cada ativo em [`docs/01-contexto-e-ativos-criticos.md`](docs/01-contexto-e-ativos-criticos.md).
+
+
