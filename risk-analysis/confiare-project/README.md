@@ -59,4 +59,11 @@ Detalhamento completo por ativo e por quinzena disponível em [`data/relatorio_v
 
 Detalhes da classificação CID de cada ativo em [`docs/01-contexto-e-ativos-criticos.md`](docs/01-contexto-e-ativos-criticos.md).
 
+## Ferramentas utilizadas
+
+Levantamento e documentação apoiados por ferramentas de IA para estruturação e automação de parte da análise e da redação; toda a modelagem de riscos, decisões técnicas e validação do conteúdo são autorais.
+
+## Nota
+
+A Confiare é uma empresa fictícia utilizada como estudo de caso acadêmico. Todos os dados de clientes, ativos e incidentes mencionados são simulados.
 
