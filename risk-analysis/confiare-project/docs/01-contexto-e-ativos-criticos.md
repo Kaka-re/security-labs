@@ -31,3 +31,15 @@ Todos os sistemas rodam nele: o portal de apólices, o banco de dados e as integ
 | Confidencialidade | Alta | Se alguém invadir o servidor, consegue ver tudo: CPF, laudos médicos e dados bancários dos clientes. Isso viola a LGPD. |
 | Integridade | Alta | Arquivos importantes ficam no servidor. Se alguém alterar esses arquivos, a empresa pode cobrar valores errados e ter prejuízo financeiro. |
 | Disponibilidade | Alta | Se o servidor cair, a empresa para completamente: não consegue emitir apólices, consultar sinistros nem atender clientes. |
+
+### Ativo 2: PostgreSQL 16 (Banco de Dados)
+
+É onde ficam armazenados todos os dados dos clientes: cadastros, apólices, sinistros e informações financeiras.
+
+| Dimensão | Nível | Por quê? |
+|---|---|---|
+| Confidencialidade | Alta | Contém dados sensíveis de clientes (CPF, dados de saúde, informações bancárias) protegidos pela LGPD. Um vazamento gera multas e perda de confiança. |
+| Integridade | Alta | Se os dados de uma apólice ou sinistro forem alterados indevidamente, a empresa pode pagar valores errados ou negar coberturas devidas. |
+| Disponibilidade | Alta | Sem acesso ao banco, nenhum sistema funciona: não dá para consultar apólices, registrar sinistros ou emitir documentos. |
+
+
