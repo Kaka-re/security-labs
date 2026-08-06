@@ -42,4 +42,32 @@ Todos os sistemas rodam nele: o portal de apólices, o banco de dados e as integ
 | Integridade | Alta | Se os dados de uma apólice ou sinistro forem alterados indevidamente, a empresa pode pagar valores errados ou negar coberturas devidas. |
 | Disponibilidade | Alta | Sem acesso ao banco, nenhum sistema funciona: não dá para consultar apólices, registrar sinistros ou emitir documentos. |
 
+### Ativo 3: Fortinet FortiGate 100F (Dispositivo de Rede)
 
+É o firewall responsável por proteger a rede da Confiare, filtrando o tráfego entre a internet e os sistemas internos.
+
+| Dimensão | Nível | Por quê? |
+|---|---|---|
+| Confidencialidade | Média | Configurações de rede e regras de segurança podem revelar a estrutura interna da empresa a um invasor, facilitando outros ataques. |
+| Integridade | Alta | Se as regras do firewall forem alteradas indevidamente, um invasor pode abrir brechas de acesso não autorizado à rede. |
+| Disponibilidade | Alta | Se o firewall falhar ou for desligado, a rede fica exposta ou totalmente inacessível, interrompendo a operação. |
+
+### Ativo 4: macOS Sonoma 14.x (Estações de Trabalho)
+
+Sistema operacional usado nos computadores dos colaboradores para acessar sistemas internos, e-mails e documentos.
+
+| Dimensão | Nível | Por quê? |
+|---|---|---|
+| Confidencialidade | Média | Estações armazenam ou acessam temporariamente dados de clientes e documentos internos, que podem ser expostos em caso de invasão do dispositivo. |
+| Integridade | Média | Um dispositivo comprometido pode ser usado para alterar documentos ou enviar informações falsas em nome do colaborador. |
+| Disponibilidade | Média | A indisponibilidade afeta a produtividade individual do colaborador, mas não interrompe a operação como um todo. |
+
+### Ativo 5: Safari (Navegador de Internet)
+
+Principal navegador utilizado pelos colaboradores para acessar sistemas internos web e serviços externos.
+
+| Dimensão | Nível | Por quê? |
+|---|---|---|
+| Confidencialidade | Média | Senhas salvas, cookies de sessão e histórico podem expor credenciais de acesso a sistemas internos se o navegador for comprometido. |
+| Integridade | Baixa | Riscos de integridade são limitados, já que o navegador não armazena dados críticos por conta própria. |
+| Disponibilidade | Baixa | A indisponibilidade do navegador tem impacto pontual e facilmente contornável (uso de outro navegador). |
