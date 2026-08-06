@@ -33,7 +33,7 @@ Consultoria de segurança da informação para a Confiare, uma seguradora fictí
 | `data/relatorio_vulnerabilidades.xlsx` | Série histórica de vulnerabilidades |
 | `assets/` | Imagens/gráficos usados na documentação |
 
-## 📊 Destaques dos Dados
+## Destaques dos Dados
 
 Ao longo do período monitorado (mar/2026 a mai/2026), foram identificados 193 registros de vulnerabilidades nos ativos críticos, com a seguinte distribuição por severidade:
 
